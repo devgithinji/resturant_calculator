@@ -11,8 +11,8 @@ def is_number(number_string):
 
 
 def calculate(food_amount):
-    tip = TIP * food_amount;
-    sales_tax = SALES_TAX * food_amount;
+    tip = TIP * food_amount
+    sales_tax = SALES_TAX * food_amount
     grand_total = food_amount + tip + sales_tax
 
     print(f'Tip = ${tip:.2f}')
